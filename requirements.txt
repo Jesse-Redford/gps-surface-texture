@@ -1,6 +1,6 @@
 cmapy==0.6.6
 streamlit==0.74.1
-opencv-python==4.2.0.32
+opencv-python-headless==4.2.0.32
 altair==4.1.0
 pandas==0.25.1
 scipy==1.4.1
