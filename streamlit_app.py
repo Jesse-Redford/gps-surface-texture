@@ -11,6 +11,11 @@ from scipy.ndimage import gaussian_filter
 # Running Streamlit app from local host
 # cmd --> streamlit run XXX.py
 
+# ---- Platforms -----------------#
+# https://dashboard.heroku.com/apps
+# https://github.com/Jesse-Redford/gps-surface-texture
+# https://www.streamlit.io/sharing-sign-up
+
 #----- Deploy app using heroku -------#
 # cd C:\Users\Jesse\Desktop
 # git clone https://github.com/Jesse-Redford/gps-surface-texture.git
@@ -31,6 +36,20 @@ from scipy.ndimage import gaussian_filter
 # heroku ps:scale web=1
 # heroku open
 
+# ------- ISO refrences --------------#
+# https://www.iso.org/obp/ui/#iso:std:iso:25178:-2:ed-1:v1:en
+# https://guide.digitalsurf.com/en/guide-metrology-videos.html
+# https://guide.digitalsurf.com/en/guide-filtration-techniques.html
+
+#----- Tutorials Resources ------------#
+# https://medium.com/analytics-vidhya/deploying-a-streamlit-and-opencv-based-web-application-to-heroku-456691d28c41 <-- opencv
+# https://www.youtube.com/watch?v=mQ7rGcE766k
+# https://towardsdatascience.com/from-streamlit-to-heroku-62a655b7319
+# https://www.youtube.com/watch?v=skpiLtEN3yk
+# https://stackoverflow.com/questions/26595874/i-want-make-push-and-get-error-src-refspec-master-does-not-match-any
+
+#-------- Misc Troubleshooting --------------#
+# https://stackoverflow.com/questions/20003290/output-different-precision-by-column-with-pandas-dataframe-to-csv
 
 st.set_page_config(layout="wide")
 st.title('Surface Measurment App')
