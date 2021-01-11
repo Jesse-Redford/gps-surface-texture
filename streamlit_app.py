@@ -16,39 +16,10 @@ from scipy.ndimage import gaussian_filter
 # https://github.com/Jesse-Redford/gps-surface-texture
 # https://www.streamlit.io/sharing-sign-up
 
-#----- Deploy app using heroku -------#
-# cd C:\Users\Jesse\Desktop
-# git clone https://github.com/Jesse-Redford/gps-surface-texture.git
-# cd C:\Users\Jesse\Desktop\gps-surface-texture
-# heroku login
-
-#---------- OPTION ONE------------------#
-# heroku create (add name here, otherwise one will be automatically generated)
-# git add .
-# git commit -m "first commit"
-# git push heroku main <or> git push heroku HEAD:master
-
-#-------- OPTION TWO -------------------#
-# heroku git:remote -a iso-app
-# heroku git:remote -a iso-app
-# git add .
-# git commit -am "commit message"
-# heroku ps:scale web=1
-# heroku open
-
 # ------- ISO refrences --------------#
 # https://www.iso.org/obp/ui/#iso:std:iso:25178:-2:ed-1:v1:en
 # https://guide.digitalsurf.com/en/guide-metrology-videos.html
 # https://guide.digitalsurf.com/en/guide-filtration-techniques.html
-
-#----- Tutorials Resources ------------#
-# https://medium.com/analytics-vidhya/deploying-a-streamlit-and-opencv-based-web-application-to-heroku-456691d28c41 <-- opencv
-# https://www.youtube.com/watch?v=mQ7rGcE766k
-# https://towardsdatascience.com/from-streamlit-to-heroku-62a655b7319
-# https://www.youtube.com/watch?v=skpiLtEN3yk
-# https://stackoverflow.com/questions/26595874/i-want-make-push-and-get-error-src-refspec-master-does-not-match-any
-# https://towardsdatascience.com/deploying-streamlit-apps-using-streamlit-sharing-16105d257852
-# https://docs.streamlit.io/en/stable/deploy_streamlit_app.html#:~:text=account%20email%20here%3A-,Deploy%20your%20app,ll%20be%20ready%20to%20share!
 
 #-------- Misc Troubleshooting --------------#
 # https://stackoverflow.com/questions/20003290/output-different-precision-by-column-with-pandas-dataframe-to-csv
