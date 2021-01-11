@@ -47,6 +47,8 @@ from scipy.ndimage import gaussian_filter
 # https://towardsdatascience.com/from-streamlit-to-heroku-62a655b7319
 # https://www.youtube.com/watch?v=skpiLtEN3yk
 # https://stackoverflow.com/questions/26595874/i-want-make-push-and-get-error-src-refspec-master-does-not-match-any
+# https://towardsdatascience.com/deploying-streamlit-apps-using-streamlit-sharing-16105d257852
+# https://docs.streamlit.io/en/stable/deploy_streamlit_app.html#:~:text=account%20email%20here%3A-,Deploy%20your%20app,ll%20be%20ready%20to%20share!
 
 #-------- Misc Troubleshooting --------------#
 # https://stackoverflow.com/questions/20003290/output-different-precision-by-column-with-pandas-dataframe-to-csv
