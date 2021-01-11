@@ -21,7 +21,7 @@ from scipy.ndimage import gaussian_filter
 # heroku create (add name here, otherwise one will be automatically generated)
 # git add .
 # git commit -m "first commit"
-# git push heroku main <--- issues with this, might need to change
+# git push heroku main <or> git push heroku HEAD:master
 
 #-------- OPTION TWO -------------------#
 # heroku git:remote -a iso-app
