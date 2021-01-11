@@ -3,7 +3,6 @@ streamlit==0.74.1
 opencv-python==4.2.0.32
 altair==4.1.0
 pandas==0.25.1
-Keras==2.2.5
 scipy==1.4.1
 numpy==1.19.5
 Pillow==8.1.0
