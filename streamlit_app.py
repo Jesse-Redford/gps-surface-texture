@@ -1,17 +1,36 @@
-import streamlit as st
-import numpy as np
-import pandas as pd
-import ISO_Parameters
-from PIL import Image
-from scipy.ndimage import gaussian_filter, gaussian_laplace
-import altair as alt
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-
-# cmd --> streamlit run XXX.py
-
 import cv2
 import cmapy
+import numpy as np
+import pandas as pd
+import altair as alt
+from PIL import Image
+import ISO_Parameters
+import streamlit as st
+from scipy.ndimage import gaussian_filter
+
+# Running Streamlit app from local host
+# cmd --> streamlit run XXX.py
+
+#----- Deploy app using heroku -------#
+# cd C:\Users\Jesse\Desktop
+# git clone https://github.com/Jesse-Redford/gps-surface-texture.git
+# cd C:\Users\Jesse\Desktop\gps-surface-texture
+# heroku login
+
+#---------- OPTION ONE------------------#
+# heroku create (add name here, otherwise one will be automatically generated)
+# git add .
+# git commit -m "first commit"
+# git push heroku main <--- issues with this, might need to change
+
+#-------- OPTION TWO -------------------#
+# heroku git:remote -a iso-app
+# heroku git:remote -a iso-app
+# git add .
+# git commit -am "commit message"
+# heroku ps:scale web=1
+# heroku open
+
 
 st.set_page_config(layout="wide")
 st.title('Surface Measurment App')
