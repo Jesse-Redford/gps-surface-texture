@@ -86,7 +86,7 @@ if uploaded_file is not None:
 
     #c = alt.layer(a, b)
 
-    st.header('1D Profile')
+    st.header('Profile')
     st.altair_chart(a, use_container_width=True)
 
     cmap = 'seismic_r'
